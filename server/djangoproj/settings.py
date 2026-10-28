@@ -28,8 +28,11 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".codeengine.appdomain.cloud"]
-CSRF_TRUSTED_ORIGINS = ["http://localhost:8000", "https://*.codeengine.appdomain.cloud"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".codeengine.appdomain.cloud",
+                 ".trycloudflare.com", ".loca.lt"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8000",
+                        "https://*.codeengine.appdomain.cloud",
+                        "https://*.trycloudflare.com", "https://*.loca.lt"]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],

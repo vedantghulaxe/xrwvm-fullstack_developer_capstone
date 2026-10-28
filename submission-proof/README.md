@@ -27,3 +27,8 @@ Outputs were produced by running the Django, Node and sentiment services locally
 | 21 Post review form | `screenshots/dealership_review_submission.png` |
 | 22 Posted review | `screenshots/added_review.png` |
 | 23 CI workflow | `outputs/CICD.txt` |
+| 24 Deployment URL | [deploymentURL](../deploymentURL) |
+| 25 Deployed landing page | `screenshots/deployed_landingpage.png` |
+| 26 Deployed logged-in page | `screenshots/deployed_loggedin.png` |
+| 27 Deployed dealer detail | `screenshots/deployed_dealer_detail.png` |
+| 28 Deployed review | `screenshots/deployed_add_review.png` |
