@@ -1,4 +1,8 @@
-# Cars Dealership - Full Stack Developer Capstone
+# fullstack_developer_capstone
+
+- **Repository name:** xrwvm-fullstack_developer_capstone
+- **Project name:** fullstack_developer_capstone
+- **Application name:** Cars Dealership - Full Stack Developer Capstone
 
 Cars Dealership is a full-stack web application for a national car retailer in the U.S.
 Users can browse dealership branches, filter them by state, read reviews with sentiment analysis,

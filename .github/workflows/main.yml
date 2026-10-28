@@ -8,25 +8,27 @@ on:
 
 jobs:
   lint_python:
-    name: Lint Python files
+    name: Lint Python Files
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install flake8
+      - name: Install dependencies
         run: pip install flake8
-      - name: Run Python linter
+      - name: Print working directory
+        run: pwd
+      - name: Run Linter
         run: flake8 server
 
   lint_js:
-    name: Lint JavaScript files
+    name: Lint JavaScript Files
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -34,5 +36,5 @@ jobs:
           node-version: 18
       - name: Install JSHint
         run: npm install -g jshint
-      - name: Run JavaScript linter
+      - name: Run Linter
         run: jshint --config .jshintrc server/database/app.js
