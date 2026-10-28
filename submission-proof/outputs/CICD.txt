@@ -1,19 +1,9 @@
-✓ main Lint Code · 39779783196
-Triggered via push less than a minute ago
-✓ Lint Python files in 13s (ID 119827772491)
-  ✓ Set up job
-  ✓ Checkout code
-  ✓ Set up Python
-  ✓ Install flake8
-  ✓ Run Python linter
-  ✓ Post Set up Python
-  ✓ Post Checkout code
-  ✓ Complete job
-To see the full job log, try: gh run view --log --job=119827772491
-View this run on GitHub: https://github.com/mayankgoplani431-del/xrwvm-fullstack_developer_capstone/actions/runs/39779783196
-✓ main Lint Code · 39779783196
-Triggered via push less than a minute ago
-✓ Lint JavaScript files in 13s (ID 119827772796)
+$ gh run view 40682134864
+
+✓ main Lint Code · 40682134864
+Triggered via push about a minute ago
+
+✓ Lint JavaScript files in 10s (ID 122795239182)
   ✓ Set up job
   ✓ Checkout code
   ✓ Install Node.js
@@ -22,5 +12,16 @@ Triggered via push less than a minute ago
   ✓ Post Install Node.js
   ✓ Post Checkout code
   ✓ Complete job
-To see the full job log, try: gh run view --log --job=119827772796
-View this run on GitHub: https://github.com/mayankgoplani431-del/xrwvm-fullstack_developer_capstone/actions/runs/39779783196
+
+✓ Lint Python files in 8s (ID 122795239456)
+  ✓ Set up job
+  ✓ Checkout code
+  ✓ Set up Python
+  ✓ Install flake8
+  ✓ Run Python linter
+  ✓ Post Set up Python
+  ✓ Post Checkout code
+  ✓ Complete job
+
+To see the full job log, try: gh run view --log --job=122795239182
+View this run on GitHub: https://github.com/vedantghulaxe/xrwvm-fullstack_developer_capstone/actions/runs/40682134864
